@@ -1,0 +1,42 @@
+.description {
+    line-height: 2;
+    margin: 1.5rem 0;
+}
+.row h1, .row .description {
+    text-align: center;
+}
+.descriptionContianer {
+    min-height: 30vh;
+}
+.vballContainer {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.showcaseVball {
+    display: flex;
+    gap: 1em;
+}
+.showcaseVball img {
+    max-width: 40%;
+}
+
+
+@media (max-width: 796px) {
+    .vballContainer {
+        flex-direction: column;
+    }
+    .vballContainer p {
+        font-size: 1rem;
+    }
+    .vballContainer img {
+        margin: 1em 0;
+    }
+    .showcaseVball img {
+        max-width: fit-content;
+    }
+    .showcaseVball {
+        flex-direction: column;
+    }
+}

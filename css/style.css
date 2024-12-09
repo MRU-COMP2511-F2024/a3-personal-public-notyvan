@@ -51,3 +51,18 @@ body {
     margin: 1.5rem 0;
     min-height: 80vh;
 }
+
+@media (max-width: 796px) {
+    .description {
+        font-size: 1rem;
+    }
+    .footerContainer {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .description {
+        font-size: 0.75rem;
+    }
+}
