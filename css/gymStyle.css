@@ -3,6 +3,7 @@
 }
 .descriptionContainer.intro {
     min-height: 40vh;
+    text-align: center;
 }
 .descriptionContainer.gym {
     display: flex;
@@ -10,5 +11,23 @@
     align-items: center;
 }
 video {
-    width: 500px;
+    width: 400px;
+}
+.videoTextContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.videoTextContainer .description {
+    max-width: 50%;
+}
+
+@media (max-width: 796px) {
+    .videoTextContainer {
+        flex-direction: column;
+    }
+    .videoTextContainer .description {
+        max-width: fit-content;
+    }
 }
