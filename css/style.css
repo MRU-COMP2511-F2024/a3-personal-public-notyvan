@@ -8,6 +8,7 @@
     --primary-color: #CCC9DC;
     --body-fonts: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --highlight-text: #70F8BA;
+    --section-color: #816F68;
 }
 body {
     font-family: var(--body-fonts);
@@ -44,4 +45,10 @@ body {
 }
 .highlight {
     color: var(--highlight-text)
+}
+.descriptionContainer {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+    min-height: 80vh;
 }
