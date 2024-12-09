@@ -1,0 +1,42 @@
+/*
+    Watched some videos on html and css and wanted to try using 
+    :root pseudo selector. Seemed more organized especially 
+    when using colour palette. 
+*/
+:root {
+    --container-color: #0C1821;
+    --primary-color: #CCC9DC;
+    --line-height: 1.5;
+    --body-fonts: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html {
+   font-family: var(--body-fonts);
+   line-height: var(--line-height);
+}
+body {
+    background-color: var(--primary-color);
+}
+
+.navbarCustom {
+    background-color: var(--container-color);
+}
+.navbarCustom .nav-link {
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+.navbarCustom .nav-link.active {
+    color: lightblue;
+    text-decoration: underline;
+}
+.navbarCustom .nav-link:hover {
+    background-color: white;
+    transform: translateY(-2px);
+}
+.navbar-toggler {
+    background-color: var(--primary-color);
+}
+
+.footerContainer {
+    background-color: var(--container-color);
+    color: var(--primary-color);
+}
