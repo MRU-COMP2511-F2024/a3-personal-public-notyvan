@@ -6,15 +6,14 @@
 :root {
     --container-color: #0C1821;
     --primary-color: #CCC9DC;
-    --line-height: 1.5;
     --body-fonts: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-html {
-   font-family: var(--body-fonts);
-   line-height: var(--line-height);
+    --highlight-text: #70F8BA;
 }
 body {
+    font-family: var(--body-fonts);
     background-color: var(--primary-color);
+    color: var(--primary-color);
+    line-height: var(--line-height);
 }
 
 .navbarCustom {
@@ -25,7 +24,7 @@ body {
     border-radius: 5px;
 }
 .navbarCustom .nav-link.active {
-    color: lightblue;
+    color: var(--highlight-text);
     text-decoration: underline;
 }
 .navbarCustom .nav-link:hover {
@@ -38,5 +37,11 @@ body {
 
 .footerContainer {
     background-color: var(--container-color);
-    color: var(--primary-color);
+}
+
+.container {
+    background-color: var(--container-color);
+}
+.highlight {
+    color: var(--highlight-text)
 }
