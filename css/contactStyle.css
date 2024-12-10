@@ -1,0 +1,59 @@
+p {
+    max-width: 80%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: contact;
+    background-color: #111111;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border: 2px solid lightseagreen;
+    max-width: 80%;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+}
+
+@media (max-width: 796px) {
+    fieldset {
+        max-width: fit-content;
+    }
+    label, 
+    input::placeholder,
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 0.75em;
+    }
+    p {
+        max-width: fit-content;
+    }
+
+
+
+}
+
+@media (max-width:576px) {
+    label, 
+    input::placeholder,
+    input[type="submit"],
+    input[type="reset"]  {
+        font-size: 0.5em;
+    }
+
+
+}

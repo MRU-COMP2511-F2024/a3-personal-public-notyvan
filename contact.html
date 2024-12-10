@@ -65,6 +65,51 @@
                 </div>
             </div>
         </nav>
+        <div class="container descriptionContainer">
+            <h1 class="highlight">Contact Me</h1>
+            <p class="description">
+                If there are any thoughts, questions, concern regarding the page or
+                about myself, please feel free to contact me through this form. 
+            </p>
+
+            <div class="row">
+                <div class="formContainer">
+                    <form id="contactInfo" method="post" action="mailto:ydela415@mtroyal.ca">
+                        <fieldset>
+                            <legend>Contact Me!:</legend>
+        
+                            <label for="firstName">First Name: </label>
+                            <input type="text" size="30" maxlength="35" id="firstName" name="firstName" required>
+        
+        
+                            <label for="lastName">Last Name: </label>
+                            <input type="text" size="30" maxlength="35" id="lastName" name="lastName" required>
+        
+                            <label for="phoneNumber">Phone Number: </label>
+                            <input type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" id="phoneNumber" name="phoneNumber"
+                                placeholder="123-456-7890" required>
+        
+                            <label for="email">Email: </label>
+                            <input type="email" pattern="[a-z0-9._%+\-]+@mtroyal\.ca$" id="email" name="email"
+                                placeholder="abc@mtroyal.ca" required>
+        
+        
+                            <label for="subject">Subject: </label>
+                            <input type="text" id="subject" name="subject" size="50" maxlength="75" required>
+        
+                            <label for="body">Body: </label>
+                            <textarea id="body" name="body" cols="50" rows="6" required></textarea>
+        
+                        </fieldset>
+                        <input type="submit" value="Submit Form">
+                        <input type="reset" value="Reset Form">
+        
+                    </form>
+        
+                </div>
+            </div>
+
+        </div>
 
         <!-- Footer -->
         <footer class="footerContainer">
