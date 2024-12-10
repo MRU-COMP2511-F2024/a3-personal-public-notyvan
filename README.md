@@ -4,7 +4,7 @@
 https://docs.google.com/document/d/13aRbMObPKZO7RsBRZmrC1dTtbQVffVheup746PxgFVU/edit?usp=sharing
 
 Link to figma for planning, although changed some ideas but kept the outline of the page. 
-https://www.figma.com/design/NC6HyfwmYOHEctrcpkEI2G/Assignment-3-Rough-Draft?node-id=1-4&t=GFTT2cKtzjM1P5xm-1
+https://www.figma.com/design/NC6HyfwmYOHEctrcpkEI2G/Assignment-3-Rough-Draft?m=auto&t=jzsdRVSXfVekqKbc-6
 
 site deployed from netlify:
 https://e-portfolio-yvan.netlify.app 
