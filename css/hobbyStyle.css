@@ -1,0 +1,33 @@
+h1, h3, li{
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+.descriptionContainer {
+    min-height: 40vh;
+}
+img {
+    width: 100%;
+}
+
+
+@media (max-width: 796px) {
+    li, p {
+        font-size: 1rem;
+    }
+    h1, h3 {
+        font-size: 1.25rem;
+    }
+    img {
+        margin: 1rem 0;
+    }
+}
+@media (max-width: 576px) {
+    li, p {
+        font-size: 0.75rem;
+    }
+    h1, h3 {
+        font-size: 1rem;
+    }
+}
